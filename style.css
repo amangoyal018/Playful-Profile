@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    border: border-box  /*paading includes in content area */
+}
+
+
+.navbar{
+    height: 55px;
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    box-shadow: 0.01rem 0.15rem 0.4rem 0.2rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    
+    align-items: center;
+    justify-content: end;
+    
+
+}
+
+.Home{
+    padding: 1.5rem;
+}
+.Grid{
+    padding: 1.5rem;
+}
+.Linkedin{
+    padding: 1.5rem;
+}
