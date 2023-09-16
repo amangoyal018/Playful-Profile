@@ -163,5 +163,10 @@
 .untapped{
     background: #00407A;
 }
-
+@media (prefer-color-scheme: dark){
+    body{
+        background: black;
+        color: white;
+    }
+}
 
