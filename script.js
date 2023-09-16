@@ -1,8 +1,11 @@
 const menuToggle = document.querySelector(".menu");
+const dropdownToggle = document.querySelector(".dropdown");
+
+
 
 menuToggle.addEventListener("click", () => {
     menuToggle.classList.toggle("clicked");
-    // console.log(123);
+    dropdownToggle.classList.toggle("clicked");
 });
 
 
