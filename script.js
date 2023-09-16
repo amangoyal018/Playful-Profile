@@ -14,10 +14,13 @@ for(let element of squares){
 
         let classname = element.getAttribute("class");
         let num = classname[7];
-        arr.push(num);
+        if(num!=arr[arr.length-1]){
+            arr.push(num);
+        }
         // console.log(num);
         if(num==9){
-            // console.log(...arr);
+            console.log(...arr);
+
             let index = 0;
             function traverse(){
                 if(index<arr.length){
@@ -26,11 +29,13 @@ for(let element of squares){
                     
                     index++;
                     setTimeout(() => traverse(arr), 400);
+                    b=true;
                 }else{
                     arr = [];
                     return;
                 }
             }
+            
             traverse();
         }
     })
