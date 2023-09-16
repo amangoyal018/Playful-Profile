@@ -19,7 +19,7 @@ for(let element of squares){
         }
         // console.log(num);
         if(num==9){
-            console.log(...arr);
+            // console.log(...arr);
 
             let index = 0;
             function traverse(){
@@ -29,7 +29,7 @@ for(let element of squares){
                     
                     index++;
                     setTimeout(() => traverse(arr), 400);
-                    b=true;
+
                 }else{
                     arr = [];
                     return;
