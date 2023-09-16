@@ -9,11 +9,12 @@
     height: 55px;
     /* width: 100%; */
     /* border: 2px solid black; */
-    box-shadow: 0.01rem 0.15rem 0.4rem 0.2rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0rem 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
     display: flex;
-    
     align-items: center;
     justify-content: end;
+    margin-bottom: 2rem;
+    /* padding-bottom: 4rem; */
     
 
 }
@@ -27,3 +28,31 @@
 .Linkedin{
     padding: 1.5rem;
 }
+
+
+.content{
+    display: flex;
+}
+
+
+
+.box{
+    /* border: 2px solid black; */
+    box-shadow: 0rem 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    width: 20%;
+    height: 20rem;
+    margin: 2rem;
+    border: 2px solid black;
+    align-items: center;
+    
+}
+
+.box1{
+    margin-left: 15.0rem ;
+}
+.box3{
+    margin-right: 1.5rem;
+}
+
+
