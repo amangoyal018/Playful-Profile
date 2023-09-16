@@ -1,3 +1,11 @@
+const menuToggle = document.querySelector(".menu");
+
+menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("clicked");
+    // console.log(123);
+});
+
+
 const squares = document.querySelector("#squares").children;
 
 
