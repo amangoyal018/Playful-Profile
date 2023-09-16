@@ -7,7 +7,7 @@ One is Profile Page and a Grid Page which has a small game implemented in JS.
 
 ## Features
 
-- Light/dark mode toggle
+- Light/dark mode toggle on switching system theme
 - Responsive
 - Hosted
 
